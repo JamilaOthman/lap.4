@@ -10,7 +10,7 @@ greatuser();
 
 
 flower = prompt("how many kind of flower do you want");
- for (var i=1; i< flower; i++){
+ for (var i=1; i<= flower; i++){
         document.write('<img width=200px hieght=100px src="../flowr.jpg">')
  }
 
