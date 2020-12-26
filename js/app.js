@@ -11,10 +11,9 @@ var name = prompt("Please enter your name");
 }
 greatuser();
 
-
 flower = prompt("how many kind of flower do you want");
  for (var i=1; i<= flower; i++){
-        document.write('<img width=200 height=100 src="../flowr.jpg">')
+        document.write('<img width=200px height=100px src="../flowr.jpg">')
  }
 
 
