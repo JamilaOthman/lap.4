@@ -1,5 +1,8 @@
 var name = prompt("Please enter your name");
-function greatuser() {
+ while(name=' '){
+   name = prompt("Please enter your name")
+ }
+ function greatuser() {
   var form;
   var form= prompt("Please enter your gender f or m");
   while (form !=="f"&&form !=="m"){
@@ -11,7 +14,7 @@ greatuser();
 
 flower = prompt("how many kind of flower do you want");
  for (var i=1; i<= flower; i++){
-        document.write('<img width=200px hieght=100px src="../flowr.jpg">')
+        document.write('<img width=200px hieght=100px src="/../flowr.jpg">')
  }
 
 
