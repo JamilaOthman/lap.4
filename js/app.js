@@ -1,15 +1,28 @@
 var name = prompt("Please enter your name");
- while(name ==""||name =="null"){
+ while(name ==="" || name ==="null"){
    name = prompt("Please enter your name")
  }
- function greatuser() {
-  var form;
-  var form= prompt("Please enter your gender f or m");
-  while (form !=="f"&&form !=="m"){
+
+ function usergendr(gender) {
+  while (gender !=="f"&&gender !=="m"){
   gender = prompt("try agin: enter f or m")
   }
-}
-greatuser();
+ }
+ var form;
+  var form= prompt("Please enter your gender f or m");
+ usergendr(form);
+ 
+ function occasion() {
+  var occasion;
+  var form= prompt("Please enter the occasion");
+  while (occasion===""){
+  gender = prompt("try agin: enter the occasion")
+  }
+ }
+ occasion();
+ 
+
+
 
 flower = prompt("how many kind of flower do you want");
  for (var i=1; i<= flower; i++){
